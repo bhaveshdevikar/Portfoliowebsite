@@ -1,0 +1,177 @@
+body{
+  margin: 0px;
+}
+.nav{
+    background-color: black;
+    border-radius: 30px;
+}
+.nav ul {
+ overflow: auto;
+ margin-bottom: 10px;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+    
+}
+.nav li a{
+    padding: 15px 3px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+} 
+.nav li a:hover {
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chu{
+    padding-top: 150px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .button{
+    
+    font-weight: bold;
+    font-size: 25px;
+    
+
+  } 
+.button button {
+  color: black;
+  border-radius: 21px;
+  padding: 9px 14px;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.button button:hover{
+  background-color: grey;
+  color: black;
+}
+.flex-container1{
+  padding-top: 200px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.flex-container2{
+   padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+  align-items: center;
+  border-radius: 21px;
+  
+   }
+
+.flex-container3{
+  padding-top: 30px;
+ text-align: center;
+ text-align: center;
+ font-size: 35px;
+ padding-top: 70px;
+ font-weight: bold;
+}
+.skillshave{
+  padding-top: 30px;
+}
+.flex5{
+  text-align: center;
+  padding-top: 70px;
+  font-size: 35px;
+  color: white;
+}
+.contact{
+  align-items: center;
+  text-align: center;
+  border: 2 px solid;
+}
+.center{
+  align-items: center;
+  text-align: center;
+}
+.container{
+  padding-top: 30px;
+  text-align: center;
+  align-items: center;
+
+}
+
+input[type=text],select,textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit]{
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: red;
+  
+}
+
+input[type=submit]:hover{
+  background-color: green;
+}
+
+.container1{
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: black;
+  padding: 12px; 
+position: absolute;
+right: 30%;
+left: 30%;
+background: transparent;
+
+color: white;}
+
+/* .container1 :hover{
+  background-color: grey;
+  color: black;
+}  */
+
+.flex6{text-align: center;
+  padding-bottom: 80px;
+  padding-top: 50px;
+  font-size: 35px;
+  font-weight: bold;
+color: white;}
+
+  .col-md-3 :hover{
+    background-color: grey;
+    color: black;
+  }
+
+  .container2{
+    padding-top: 600px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .container3{
+    padding-top: 600px;
+  }
+  .flex-container1{
+    color: white;
+  }
